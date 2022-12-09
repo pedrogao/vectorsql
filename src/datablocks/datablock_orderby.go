@@ -9,10 +9,10 @@ import (
 	"sort"
 	"time"
 
-	"base/metric"
-	"datavalues"
-	"expressions"
-	"planners"
+	"github.com/pedrogao/vectorsql/src/base/metric"
+	"github.com/pedrogao/vectorsql/src/datavalues"
+	"github.com/pedrogao/vectorsql/src/expressions"
+	"github.com/pedrogao/vectorsql/src/planners"
 )
 
 func (block *DataBlock) OrderByPlan(fields []string, plan *planners.OrderByPlan) error {

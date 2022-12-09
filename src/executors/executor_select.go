@@ -5,8 +5,8 @@
 package executors
 
 import (
-	"base/errors"
-	"planners"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/planners"
 )
 
 type SelectExecutor struct {

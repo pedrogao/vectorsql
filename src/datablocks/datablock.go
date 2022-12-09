@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"sync"
 
-	"base/errors"
-	"columns"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 type DataBlock struct {

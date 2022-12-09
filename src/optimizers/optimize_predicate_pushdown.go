@@ -5,7 +5,7 @@
 package optimizers
 
 import (
-	"planners"
+	"github.com/pedrogao/vectorsql/src/planners"
 )
 
 var PredicatePushDownOptimizer = Optimizer{

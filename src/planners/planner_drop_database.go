@@ -7,8 +7,8 @@ package planners
 import (
 	"encoding/json"
 
-	"base/errors"
-	"parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
 )
 
 type DropDatabasePlan struct {

@@ -9,10 +9,10 @@ import (
 	"os"
 	"sync"
 
-	"base/xlog"
-	"config"
-	"databases"
-	"sessions"
+	"github.com/pedrogao/vectorsql/src/base/xlog"
+	"github.com/pedrogao/vectorsql/src/config"
+	"github.com/pedrogao/vectorsql/src/databases"
+	"github.com/pedrogao/vectorsql/src/sessions"
 )
 
 var once sync.Once

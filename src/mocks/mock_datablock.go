@@ -7,9 +7,9 @@ package mocks
 import (
 	"reflect"
 
-	"columns"
-	"datablocks"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 func NewBlockFromSlice(cols []*columns.Column, datas ...[]interface{}) *datablocks.DataBlock {

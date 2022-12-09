@@ -7,7 +7,7 @@ package datablocks
 import (
 	"expvar"
 
-	"base/metric"
+	"github.com/pedrogao/vectorsql/src/base/metric"
 )
 
 var (

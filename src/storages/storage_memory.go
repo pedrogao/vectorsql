@@ -5,9 +5,8 @@
 package storages
 
 import (
-	"columns"
-
-	mem "storages/memory"
+	"github.com/pedrogao/vectorsql/src/columns"
+	mem "github.com/pedrogao/vectorsql/src/storages/memory"
 )
 
 const (

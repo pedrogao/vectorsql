@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"strings"
 
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 // Functions in this file should only be used for testing.

@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 func TestResult(t *testing.T) {

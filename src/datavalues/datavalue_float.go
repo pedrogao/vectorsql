@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"unsafe"
 
-	"base/docs"
-	"base/errors"
+	"github.com/pedrogao/vectorsql/src/base/docs"
+	"github.com/pedrogao/vectorsql/src/base/errors"
 )
 
 type ValueFloat float64

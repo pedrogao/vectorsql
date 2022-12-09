@@ -9,8 +9,8 @@ import (
 	"math"
 	"testing"
 
-	"base/binary"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/base/binary"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 
 	"github.com/stretchr/testify/assert"
 )

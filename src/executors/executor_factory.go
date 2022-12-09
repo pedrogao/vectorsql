@@ -7,9 +7,8 @@ package executors
 import (
 	"reflect"
 
-	"planners"
-
-	"base/errors"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/planners"
 )
 
 type executorCreator func(ctx *ExecutorContext, plan planners.IPlan) IExecutor

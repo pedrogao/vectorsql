@@ -9,14 +9,14 @@ import (
 	"sync"
 	"time"
 
-	"datablocks"
-	"datastreams"
-	"executors"
-	"optimizers"
-	"planners"
-	"processors"
-	"servers/protocol"
-	"sessions"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/datastreams"
+	"github.com/pedrogao/vectorsql/src/executors"
+	"github.com/pedrogao/vectorsql/src/optimizers"
+	"github.com/pedrogao/vectorsql/src/planners"
+	"github.com/pedrogao/vectorsql/src/processors"
+	"github.com/pedrogao/vectorsql/src/servers/protocol"
+	"github.com/pedrogao/vectorsql/src/sessions"
 )
 
 func (s *TCPHandler) processQuery(session *TCPSession) error {

@@ -5,7 +5,7 @@
 package executors
 
 import (
-	"processors"
+	"github.com/pedrogao/vectorsql/src/processors"
 )
 
 type ExecutorTree struct {

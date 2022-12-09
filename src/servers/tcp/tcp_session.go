@@ -9,14 +9,13 @@ import (
 	"net"
 	"time"
 
-	"datablocks"
-	"datastreams"
-	"sessions"
-
-	"base/binary"
-	"base/errors"
-	"base/metric"
-	"servers/protocol"
+	"github.com/pedrogao/vectorsql/src/base/binary"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/base/metric"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/datastreams"
+	"github.com/pedrogao/vectorsql/src/servers/protocol"
+	"github.com/pedrogao/vectorsql/src/sessions"
 )
 
 type TCPSession struct {

@@ -5,8 +5,8 @@
 package executors
 
 import (
-	"planners"
-	"processors"
+	"github.com/pedrogao/vectorsql/src/planners"
+	"github.com/pedrogao/vectorsql/src/processors"
 )
 
 type SinkExecutor struct {

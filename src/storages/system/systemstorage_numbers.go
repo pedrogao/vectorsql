@@ -5,13 +5,13 @@
 package system
 
 import (
-	"base/errors"
-	"columns"
-	"datablocks"
-	"datastreams"
-	"datatypes"
-	"datavalues"
-	"sessions"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/datastreams"
+	"github.com/pedrogao/vectorsql/src/datatypes"
+	"github.com/pedrogao/vectorsql/src/datavalues"
+	"github.com/pedrogao/vectorsql/src/sessions"
 )
 
 type SystemNumbersStorage struct {

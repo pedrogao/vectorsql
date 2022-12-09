@@ -5,11 +5,10 @@
 package planners
 
 import (
-	"parsers"
-
 	"encoding/json"
 
-	"parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/parsers"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
 )
 
 type ShowDatabasesPlan struct {

@@ -5,13 +5,13 @@
 package executors
 
 import (
-	"mocks"
 	"testing"
 
-	"columns"
-	"datablocks"
-	"datatypes"
-	"planners"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/datatypes"
+	"github.com/pedrogao/vectorsql/src/mocks"
+	"github.com/pedrogao/vectorsql/src/planners"
 
 	"github.com/stretchr/testify/assert"
 )

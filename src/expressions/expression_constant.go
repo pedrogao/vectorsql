@@ -5,8 +5,8 @@
 package expressions
 
 import (
-	"base/docs"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/base/docs"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 type ConstantExpression struct {

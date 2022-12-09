@@ -5,7 +5,7 @@
 package tcp
 
 import (
-	"servers/protocol"
+	"github.com/pedrogao/vectorsql/src/servers/protocol"
 )
 
 func (s *TCPHandler) processPing(session *TCPSession) error {

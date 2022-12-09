@@ -28,7 +28,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 // NullBindVariable is a bindvar with NULL value.

@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"testing"
 
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 func TestRepair(t *testing.T) {

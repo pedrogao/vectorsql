@@ -5,9 +5,9 @@
 package datablocks
 
 import (
-	"columns"
-	"datatypes"
-	"planners"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datatypes"
+	"github.com/pedrogao/vectorsql/src/planners"
 )
 
 func (block *DataBlock) ProjectionByPlan(plan *planners.MapPlan) (*DataBlock, error) {

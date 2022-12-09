@@ -8,8 +8,8 @@ import (
 	"io"
 	"sync"
 
-	"datablocks"
-	"dataformats"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/dataformats"
 )
 
 type CustomFormatBlockOutputStream struct {

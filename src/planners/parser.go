@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"base/errors"
-	"parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
 )
 
 func parseExpression(aliases map[string]IPlan, expr sqlparser.Expr) (IPlan, error) {

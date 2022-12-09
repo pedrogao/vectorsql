@@ -23,7 +23,7 @@ package sqlparser
 import (
 	"strings"
 
-	"parsers/sqlparser/dependency/sqltypes"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/sqltypes"
 )
 
 // This file contains types that are 'Encodable'.

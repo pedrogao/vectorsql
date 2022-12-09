@@ -5,9 +5,8 @@
 package expressions
 
 import (
-	"datavalues"
-
-	"base/docs"
+	"github.com/pedrogao/vectorsql/src/base/docs"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 type IExpression interface {

@@ -5,8 +5,8 @@
 package databases
 
 import (
-	"datablocks"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 // Handlers.

@@ -5,9 +5,9 @@
 package datablocks
 
 import (
-	"base/errors"
-	"columns"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 type DataBlockMixsIterator struct {

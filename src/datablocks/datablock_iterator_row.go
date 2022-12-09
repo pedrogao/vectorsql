@@ -5,8 +5,8 @@
 package datablocks
 
 import (
-	"columns"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 type DataBlockRowIterator struct {

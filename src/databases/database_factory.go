@@ -8,12 +8,11 @@ import (
 	"strings"
 	"sync"
 
-	"config"
-	"storages"
-
-	"base/errors"
-	"base/xlog"
-	"parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/base/xlog"
+	"github.com/pedrogao/vectorsql/src/config"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/storages"
 )
 
 var (

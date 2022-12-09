@@ -23,7 +23,7 @@ package sqltypes
 import (
 	"github.com/golang/protobuf/proto"
 
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 // This file contains the proto3 conversion functions for the structures

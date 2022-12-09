@@ -7,8 +7,8 @@ package tcp
 import (
 	"fmt"
 
-	"base/errors"
-	"servers/protocol"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/servers/protocol"
 )
 
 func (s *TCPHandler) processHello(session *TCPSession) error {

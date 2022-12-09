@@ -21,7 +21,7 @@ import (
 	"reflect"
 
 	"github.com/golang/protobuf/proto"
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 // Result represents a query result.

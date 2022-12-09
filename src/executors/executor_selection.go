@@ -7,10 +7,10 @@ package executors
 import (
 	"fmt"
 
-	"base/errors"
-	"planners"
-	"processors"
-	"transforms"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/planners"
+	"github.com/pedrogao/vectorsql/src/processors"
+	"github.com/pedrogao/vectorsql/src/transforms"
 )
 
 type SelectionExecutor struct {

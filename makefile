@@ -1,6 +1,3 @@
-export GO111MODULE = off
-export GOPATH := $(shell pwd)
-
 build:
 	@echo "--> Building..."
 	go build -v -o bin/vectorsql-server src/cmd/server.go
@@ -30,55 +27,55 @@ test:
 	@$(MAKE) testtransforms
 
 testbase:
-	go test -v -race base/xlog
-	go test -v -race base/lru
-	go test -v -race base/metric
+	go test -v -race github.com/pedrogao/vectorsql/src/base/xlog
+	go test -v -race github.com/pedrogao/vectorsql/src/base/lru
+	go test -v -race github.com/pedrogao/vectorsql/src/base/metric
 
 testconfig:
-	go test -v -race config
+	go test -v -race github.com/pedrogao/vectorsql/src/config
 
 testsessions:
-	go test -v -race sessions
+	go test -v -race github.com/pedrogao/vectorsql/src/sessions
 
 testprocessors:
-	go test -v -race processors
+	go test -v -race github.com/pedrogao/vectorsql/src/processors
 
 testdatatypes:
-	go test -v -race datatypes
+	go test -v -race github.com/pedrogao/vectorsql/src/datatypes
 
 testdatastreams:
-	go test -v -race datastreams
+	go test -v -race github.com/pedrogao/vectorsql/src/datastreams
 
 testexpressions:
-	go test -v -race expressions
+	go test -v -race github.com/pedrogao/vectorsql/src/expressions
 
 testparsers:
-	go test -v -race parsers/...
+	go test -v -race github.com/pedrogao/vectorsql/src/parsers/...
 
 testplanners:
-	go test -v -race planners
+	go test -v -race github.com/pedrogao/vectorsql/src/planners
 
 testoptimizers:
-	go test -v -race optimizers
+	go test -v -race github.com/pedrogao/vectorsql/src/optimizers
 
 testexecutors:
-	go test -v -race executors
+	go test -v -race github.com/pedrogao/vectorsql/src/executors
 
 testtransforms:
-	go test -v -race transforms
+	go test -v -race github.com/pedrogao/vectorsql/src/transforms
 
 
-pkgs =	config		\
-		sessions	\
-		processors	\
-		parsers/...	\
-		datatypes	\
-		datastreams	\
-		expressions	\
-		planners	\
-		optimizers	\
-		executors	\
-		transforms
+pkgs =	github.com/pedrogao/vectorsql/src/config		\
+		github.com/pedrogao/vectorsql/src/sessions	\
+		github.com/pedrogao/vectorsql/src/processors	\
+		github.com/pedrogao/vectorsql/src/parsers/...	\
+		github.com/pedrogao/vectorsql/src/datatypes	\
+		github.com/pedrogao/vectorsql/src/datastreams	\
+		github.com/pedrogao/vectorsql/src/expressions	\
+		github.com/pedrogao/vectorsql/src/planners	\
+		github.com/pedrogao/vectorsql/src/optimizers	\
+		github.com/pedrogao/vectorsql/src/executors	\
+		github.com/pedrogao/vectorsql/src/transforms
 
 coverage:
 	go build -v -o bin/gotestcover \

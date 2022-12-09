@@ -7,7 +7,7 @@ package expressions
 import (
 	"testing"
 
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 
 	"github.com/stretchr/testify/assert"
 )

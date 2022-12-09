@@ -5,17 +5,15 @@
 package databases
 
 import (
-	"sync"
-
-	"config"
-	"parsers"
-
 	"io/ioutil"
 	"path/filepath"
+	"sync"
 
-	"base/errors"
-	"base/xlog"
-	"parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/base/xlog"
+	"github.com/pedrogao/vectorsql/src/config"
+	"github.com/pedrogao/vectorsql/src/parsers"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
 )
 
 type Databases struct {

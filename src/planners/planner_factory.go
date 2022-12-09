@@ -5,10 +5,9 @@
 package planners
 
 import (
-	"parsers"
-
-	"base/errors"
-	"parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/parsers"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
 )
 
 type planCreator func(ast sqlparser.Statement) IPlan

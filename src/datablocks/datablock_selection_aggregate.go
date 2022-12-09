@@ -7,8 +7,8 @@ package datablocks
 import (
 	"sync"
 
-	"expressions"
-	"planners"
+	"github.com/pedrogao/vectorsql/src/expressions"
+	"github.com/pedrogao/vectorsql/src/planners"
 
 	"github.com/gammazero/workerpool"
 )

@@ -1,7 +1,7 @@
 package optimizers
 
 import (
-	. "planners"
+	. "github.com/pedrogao/vectorsql/src/planners"
 )
 
 func Optimize(plan IPlan, optimizers []Optimizer) IPlan {

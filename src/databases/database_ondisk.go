@@ -5,19 +5,17 @@
 package databases
 
 import (
+	"io/ioutil"
 	"os"
+	"path/filepath"
 	"sync"
 
-	"io/ioutil"
-	"path/filepath"
-
-	"columns"
-	"datatypes"
-	"parsers"
-	"storages"
-
-	"base/errors"
-	"parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datatypes"
+	"github.com/pedrogao/vectorsql/src/parsers"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/storages"
 )
 
 type OnDiskDatabase struct {

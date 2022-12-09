@@ -9,9 +9,9 @@ import (
 	"io"
 	"math"
 
-	"base/binary"
-	"base/errors"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/base/binary"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 const (

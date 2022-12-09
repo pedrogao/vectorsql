@@ -5,7 +5,7 @@
 package sessions
 
 import (
-	"base/sync2"
+	"github.com/pedrogao/vectorsql/src/base/sync2"
 )
 
 type ProgressValues struct {

@@ -5,7 +5,7 @@
 package datavalues
 
 import (
-	"base/errors"
+	"github.com/pedrogao/vectorsql/src/base/errors"
 )
 
 func IsIntegral(v IDataValue) bool {

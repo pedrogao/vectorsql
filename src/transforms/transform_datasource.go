@@ -7,9 +7,9 @@ package transforms
 import (
 	"time"
 
-	"datastreams"
-	"processors"
-	"sessions"
+	"github.com/pedrogao/vectorsql/src/datastreams"
+	"github.com/pedrogao/vectorsql/src/processors"
+	"github.com/pedrogao/vectorsql/src/sessions"
 )
 
 type DataSourceTransform struct {

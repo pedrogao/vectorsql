@@ -8,13 +8,13 @@ import (
 	"context"
 	"io"
 
-	"datablocks"
-	"datastreams"
-	"executors"
-	"optimizers"
-	"planners"
-	"processors"
-	"sessions"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/datastreams"
+	"github.com/pedrogao/vectorsql/src/executors"
+	"github.com/pedrogao/vectorsql/src/optimizers"
+	"github.com/pedrogao/vectorsql/src/planners"
+	"github.com/pedrogao/vectorsql/src/processors"
+	"github.com/pedrogao/vectorsql/src/sessions"
 )
 
 func (s *HTTPHandler) processQuery(query string, rw io.Writer) (err error) {

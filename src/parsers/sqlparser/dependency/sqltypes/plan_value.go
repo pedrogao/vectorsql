@@ -25,7 +25,7 @@ import (
 	"errors"
 	"fmt"
 
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 // PlanValue represents a value or a list of values for

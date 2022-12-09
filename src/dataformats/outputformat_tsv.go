@@ -8,7 +8,7 @@ import (
 	"io"
 	"sync"
 
-	"datablocks"
+	"github.com/pedrogao/vectorsql/src/datablocks"
 )
 
 type TSVOutputFormat struct {

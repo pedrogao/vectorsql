@@ -5,8 +5,8 @@
 package executors
 
 import (
-	"datastreams"
-	"processors"
+	"github.com/pedrogao/vectorsql/src/datastreams"
+	"github.com/pedrogao/vectorsql/src/processors"
 )
 
 type IExecutor interface {

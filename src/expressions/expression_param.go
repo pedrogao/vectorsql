@@ -5,7 +5,7 @@
 package expressions
 
 import (
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 type IParams interface {

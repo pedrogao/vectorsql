@@ -7,7 +7,7 @@ package planners
 import (
 	"encoding/json"
 
-	"parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
 )
 
 type InsertPlan struct {

@@ -8,7 +8,7 @@ package expressions
 import (
 	"testing"
 
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 func Test_exactlyNArgs(t *testing.T) {

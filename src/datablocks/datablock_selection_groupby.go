@@ -7,9 +7,9 @@ package datablocks
 import (
 	"strings"
 
-	"base/collections"
-	"expressions"
-	"planners"
+	"github.com/pedrogao/vectorsql/src/base/collections"
+	"github.com/pedrogao/vectorsql/src/expressions"
+	"github.com/pedrogao/vectorsql/src/planners"
 )
 
 func (block *DataBlock) GroupBySelectionByPlan(plan *planners.SelectionPlan) (*collections.HashMap, error) {

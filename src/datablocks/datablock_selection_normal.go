@@ -5,11 +5,11 @@
 package datablocks
 
 import (
-	"columns"
-	"datatypes"
-	"datavalues"
-	"expressions"
-	"planners"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datatypes"
+	"github.com/pedrogao/vectorsql/src/datavalues"
+	"github.com/pedrogao/vectorsql/src/expressions"
+	"github.com/pedrogao/vectorsql/src/planners"
 )
 
 func (block *DataBlock) NormalSelectionByPlan(fields []string, plan *planners.SelectionPlan) (*DataBlock, error) {

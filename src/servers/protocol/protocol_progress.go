@@ -5,9 +5,9 @@
 package protocol
 
 import (
-	"base/binary"
-	"base/errors"
-	"sessions"
+	"github.com/pedrogao/vectorsql/src/base/binary"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/sessions"
 )
 
 func WriteProgressResponse(writer *binary.Writer, pv *sessions.ProgressValues, clientRevision uint64) error {

@@ -23,7 +23,7 @@ package sqltypes
 import (
 	"testing"
 
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 func TestTypeValues(t *testing.T) {

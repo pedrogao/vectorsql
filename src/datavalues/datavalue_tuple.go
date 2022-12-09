@@ -8,7 +8,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"base/docs"
+	"github.com/pedrogao/vectorsql/src/base/docs"
 )
 
 type ValueTuple struct {

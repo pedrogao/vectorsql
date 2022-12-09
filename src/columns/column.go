@@ -5,7 +5,7 @@
 package columns
 
 import (
-	"datatypes"
+	"github.com/pedrogao/vectorsql/src/datatypes"
 )
 
 type Column struct {

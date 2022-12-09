@@ -9,10 +9,10 @@ import (
 	"io"
 	"net"
 
-	"base/errors"
-	"base/xlog"
-	"config"
-	"servers/protocol"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/base/xlog"
+	"github.com/pedrogao/vectorsql/src/config"
+	"github.com/pedrogao/vectorsql/src/servers/protocol"
 )
 
 type TCPHandler struct {

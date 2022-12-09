@@ -5,8 +5,8 @@
 package protocol
 
 import (
-	"base/binary"
-	"base/errors"
+	"github.com/pedrogao/vectorsql/src/base/binary"
+	"github.com/pedrogao/vectorsql/src/base/errors"
 )
 
 const (

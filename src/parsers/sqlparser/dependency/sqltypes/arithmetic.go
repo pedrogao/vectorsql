@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"strconv"
 
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 // numeric represents a numeric value extracted from

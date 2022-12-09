@@ -7,9 +7,8 @@ package storages
 import (
 	"strings"
 
-	"columns"
-
-	"base/errors"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/columns"
 )
 
 type storageCreator func(*StorageContext, []*columns.Column) IStorage

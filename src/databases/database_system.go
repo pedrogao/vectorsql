@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"base/errors"
-	"parsers/sqlparser"
-	"storages"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/storages"
 )
 
 const (

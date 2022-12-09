@@ -13,11 +13,11 @@ import (
 	"syscall"
 	"time"
 
-	"base/humanize"
-	"base/xlog"
-	"config"
-	"databases"
-	"servers"
+	"github.com/pedrogao/vectorsql/src/base/humanize"
+	"github.com/pedrogao/vectorsql/src/base/xlog"
+	"github.com/pedrogao/vectorsql/src/config"
+	"github.com/pedrogao/vectorsql/src/databases"
+	"github.com/pedrogao/vectorsql/src/servers"
 )
 
 var (
@@ -26,7 +26,7 @@ var (
 
 func init() {
 	flag.StringVar(&flagConf, "c", "", "VectorSQL config file")
-	flag.StringVar(&flagConf, "config", "", "VectorSQL config file")
+	flag.StringVar(&flagConf, "github.com/pedrogao/vectorsql/src/config", "", "VectorSQL config file")
 }
 
 func usage() {

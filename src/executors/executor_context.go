@@ -7,9 +7,9 @@ package executors
 import (
 	"context"
 
-	"base/xlog"
-	"config"
-	"sessions"
+	"github.com/pedrogao/vectorsql/src/base/xlog"
+	"github.com/pedrogao/vectorsql/src/config"
+	"github.com/pedrogao/vectorsql/src/sessions"
 )
 
 type ExecutorContext struct {

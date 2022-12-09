@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"base/docs"
+	"github.com/pedrogao/vectorsql/src/base/docs"
 
 	"github.com/stretchr/testify/assert"
 )

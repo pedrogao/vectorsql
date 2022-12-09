@@ -7,9 +7,9 @@ package executors
 import (
 	"fmt"
 
-	"planners"
-	"processors"
-	"transforms"
+	"github.com/pedrogao/vectorsql/src/planners"
+	"github.com/pedrogao/vectorsql/src/processors"
+	"github.com/pedrogao/vectorsql/src/transforms"
 )
 
 type ProjectionExecutor struct {

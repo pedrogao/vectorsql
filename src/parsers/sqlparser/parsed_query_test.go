@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"testing"
 
-	"parsers/sqlparser/dependency/sqltypes"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/sqltypes"
 
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 func TestNewParsedQuery(t *testing.T) {

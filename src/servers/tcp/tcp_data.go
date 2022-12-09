@@ -5,8 +5,8 @@
 package tcp
 
 import (
-	"base/humanize"
-	"datastreams"
+	"github.com/pedrogao/vectorsql/src/base/humanize"
+	"github.com/pedrogao/vectorsql/src/datastreams"
 )
 
 func (s *TCPHandler) processData(session *TCPSession) error {

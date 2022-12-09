@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"parsers/sqlparser/dependency/sqltypes"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/sqltypes"
 
 	"github.com/stretchr/testify/assert"
 )

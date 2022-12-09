@@ -5,9 +5,8 @@
 package databases
 
 import (
-	"config"
-
-	"base/xlog"
+	"github.com/pedrogao/vectorsql/src/base/xlog"
+	"github.com/pedrogao/vectorsql/src/config"
 )
 
 type DatabaseContext struct {

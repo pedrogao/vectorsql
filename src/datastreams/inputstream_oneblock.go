@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	"datablocks"
+	"github.com/pedrogao/vectorsql/src/datablocks"
 )
 
 type OneBlockInputStream struct {

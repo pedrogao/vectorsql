@@ -29,7 +29,7 @@ import (
 	"strconv"
 	"testing"
 
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 func errorEquals(a error, b error) bool {

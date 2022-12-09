@@ -28,7 +28,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"parsers/sqlparser/dependency/sqltypes"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/sqltypes"
 )
 
 func TestAppend(t *testing.T) {

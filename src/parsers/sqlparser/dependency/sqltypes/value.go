@@ -28,10 +28,10 @@ import (
 	"strconv"
 	"time"
 
-	"parsers/sqlparser/dependency/bytes2"
-	"parsers/sqlparser/dependency/hack"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/bytes2"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/hack"
 
-	querypb "parsers/sqlparser/dependency/query"
+	querypb "github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/query"
 )
 
 var (

@@ -29,7 +29,7 @@ import (
 	"strings"
 	"unicode"
 
-	"parsers/sqlparser/dependency/sqltypes"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/sqltypes"
 )
 
 // StatementType encodes the type of a SQL statement

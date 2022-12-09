@@ -7,7 +7,7 @@ package datavalues
 import (
 	"fmt"
 
-	"base/docs"
+	"github.com/pedrogao/vectorsql/src/base/docs"
 )
 
 type Type int

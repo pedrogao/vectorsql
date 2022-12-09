@@ -5,8 +5,8 @@
 package executors
 
 import (
-	"databases"
-	"planners"
+	"github.com/pedrogao/vectorsql/src/databases"
+	"github.com/pedrogao/vectorsql/src/planners"
 )
 
 type CreateDatabaseExecutor struct {

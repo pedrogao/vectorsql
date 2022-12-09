@@ -5,12 +5,12 @@
 package expressions
 
 import (
-	"base/errors"
 	"fmt"
 	"strings"
 
-	"base/docs"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/base/docs"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 type aggregateMergeFunc func(current datavalues.IDataValue, next datavalues.IDataValue) (datavalues.IDataValue, error)

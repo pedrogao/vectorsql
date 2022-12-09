@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -26,8 +26,8 @@ import (
 	"fmt"
 	"io"
 
-	"parsers/sqlparser/dependency/bytes2"
-	"parsers/sqlparser/dependency/sqltypes"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/bytes2"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/sqltypes"
 )
 
 const (

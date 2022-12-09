@@ -7,7 +7,7 @@ package expressions
 import (
 	"strings"
 
-	"base/errors"
+	"github.com/pedrogao/vectorsql/src/base/errors"
 )
 
 type (

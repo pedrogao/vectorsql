@@ -13,10 +13,9 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"config"
-
-	"base/metric"
-	"base/xlog"
+	"github.com/pedrogao/vectorsql/src/base/metric"
+	"github.com/pedrogao/vectorsql/src/base/xlog"
+	"github.com/pedrogao/vectorsql/src/config"
 )
 
 type DebugServer struct {

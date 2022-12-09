@@ -8,9 +8,9 @@ package expressions
 import (
 	"fmt"
 
-	"base/docs"
-	"base/errors"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/base/docs"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 type IValidator interface {

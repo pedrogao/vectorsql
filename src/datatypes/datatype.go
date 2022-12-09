@@ -5,10 +5,11 @@
 package datatypes
 
 import (
-	"base/binary"
-	"base/errors"
-	"datavalues"
 	"io"
+
+	"github.com/pedrogao/vectorsql/src/base/binary"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 type IDataType interface {

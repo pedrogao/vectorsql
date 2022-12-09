@@ -7,8 +7,8 @@ package planners
 import (
 	"testing"
 
-	"parsers"
-	"parsers/sqlparser"
+	"github.com/pedrogao/vectorsql/src/parsers"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser"
 
 	"github.com/stretchr/testify/assert"
 )

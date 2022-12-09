@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"base/docs"
-	"datavalues"
+	"github.com/pedrogao/vectorsql/src/base/docs"
+	"github.com/pedrogao/vectorsql/src/datavalues"
 )
 
 type scalarUpdateFunc func(args ...datavalues.IDataValue) (datavalues.IDataValue, error)

@@ -9,10 +9,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"config"
-
-	"base/errors"
-	"base/xlog"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/base/xlog"
+	"github.com/pedrogao/vectorsql/src/config"
 )
 
 type HTTPHandler struct {

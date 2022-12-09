@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"datablocks"
-	"expressions"
-	"planners"
-	"processors"
-	"sessions"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/expressions"
+	"github.com/pedrogao/vectorsql/src/planners"
+	"github.com/pedrogao/vectorsql/src/processors"
+	"github.com/pedrogao/vectorsql/src/sessions"
 
 	"github.com/gammazero/workerpool"
 )

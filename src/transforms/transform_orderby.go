@@ -7,10 +7,10 @@ package transforms
 import (
 	"time"
 
-	"datablocks"
-	"planners"
-	"processors"
-	"sessions"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/planners"
+	"github.com/pedrogao/vectorsql/src/processors"
+	"github.com/pedrogao/vectorsql/src/sessions"
 )
 
 type OrderByTransform struct {

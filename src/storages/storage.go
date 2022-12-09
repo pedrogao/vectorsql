@@ -5,9 +5,9 @@
 package storages
 
 import (
-	"columns"
-	"datastreams"
-	"sessions"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datastreams"
+	"github.com/pedrogao/vectorsql/src/sessions"
 )
 
 type IStorage interface {

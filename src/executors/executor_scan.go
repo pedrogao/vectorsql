@@ -7,10 +7,10 @@ package executors
 import (
 	"fmt"
 
-	"databases"
-	"planners"
-	"processors"
-	"transforms"
+	"github.com/pedrogao/vectorsql/src/databases"
+	"github.com/pedrogao/vectorsql/src/planners"
+	"github.com/pedrogao/vectorsql/src/processors"
+	"github.com/pedrogao/vectorsql/src/transforms"
 )
 
 type ScanExecutor struct {

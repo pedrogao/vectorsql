@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"parsers/sqlparser/dependency/sqltypes"
+	"github.com/pedrogao/vectorsql/src/parsers/sqlparser/dependency/sqltypes"
 )
 
 func TestEncodable(t *testing.T) {

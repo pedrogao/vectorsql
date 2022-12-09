@@ -8,12 +8,12 @@ import (
 	"context"
 	"testing"
 
-	"columns"
-	"datablocks"
-	"datatypes"
-	"mocks"
-	"planners"
-	"processors"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datablocks"
+	"github.com/pedrogao/vectorsql/src/datatypes"
+	"github.com/pedrogao/vectorsql/src/mocks"
+	"github.com/pedrogao/vectorsql/src/planners"
+	"github.com/pedrogao/vectorsql/src/processors"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -8,11 +8,11 @@ import (
 	"expvar"
 	"time"
 
-	"base/metric"
-	"columns"
-	"datatypes"
-	"datavalues"
-	"expressions"
+	"github.com/pedrogao/vectorsql/src/base/metric"
+	"github.com/pedrogao/vectorsql/src/columns"
+	"github.com/pedrogao/vectorsql/src/datatypes"
+	"github.com/pedrogao/vectorsql/src/datavalues"
+	"github.com/pedrogao/vectorsql/src/expressions"
 )
 
 func (block *DataBlock) Append(blocks ...*DataBlock) error {

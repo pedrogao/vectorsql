@@ -7,7 +7,7 @@ package optimizers
 import (
 	"testing"
 
-	"planners"
+	"github.com/pedrogao/vectorsql/src/planners"
 
 	"github.com/stretchr/testify/assert"
 )

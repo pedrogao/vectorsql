@@ -7,9 +7,9 @@ package datastreams
 import (
 	"io"
 
-	"base/binary"
-	"base/errors"
-	"datablocks"
+	"github.com/pedrogao/vectorsql/src/base/binary"
+	"github.com/pedrogao/vectorsql/src/base/errors"
+	"github.com/pedrogao/vectorsql/src/datablocks"
 )
 
 type NativeBlockOutputStream struct {

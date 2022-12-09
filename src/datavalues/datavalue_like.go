@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"base/lru"
+	"github.com/pedrogao/vectorsql/src/base/lru"
 )
 
 var (

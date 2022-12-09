@@ -5,10 +5,9 @@
 package storages
 
 import (
-	"config"
-
-	"base/xlog"
-	"storages/system"
+	"github.com/pedrogao/vectorsql/src/base/xlog"
+	"github.com/pedrogao/vectorsql/src/config"
+	"github.com/pedrogao/vectorsql/src/storages/system"
 )
 
 type StorageContext struct {
